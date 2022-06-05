@@ -1,0 +1,22 @@
+{
+  "name": "projects-manager",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "electron": "vite build; electron ."
+  },
+  "dependencies": {
+    "fs-extra": "^10.1.0",
+    "uuid": "^8.3.2",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.15"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "electron": "^19.0.0",
+    "vite": "^2.9.9"
+  }
+}
